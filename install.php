@@ -89,7 +89,7 @@ ini_set('display_startup_errors', 1);
 		ALTER TABLE `supporters` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 		
 		INSERT INTO `supporters` (`id`, `address`, `logo`, `link`, `amount`, `confirmations`, `ts`) VALUES
-		(NULL, '3KNZz4ipKkriCecXbv6NnS8f6dhVrb1vZ5', 'https%3A%2F%2Fwww.google.com%2Fimages%2Fbranding%2Fgooglelogo%2F2x%2Fgooglelogo_color_272x92dp.png', 'https%3A%2F%2Fwww.google.com', 1000000, 0, CURRENT_TIMESTAMP);";
+		(NULL, '3KNZz4ipKkriCecXbv6NnS8f6dhVrb1vZ5', 'https%3A%2F%2Fapirone.com%2Fstatic%2Fpromo%2Fbitcoin.svg', 'https%3A%2F%2Fbitcoin.org%2F', 1000000, 0, CURRENT_TIMESTAMP);";
 
 		if ($link->multi_query($query) === FALSE) { die ("ERROR: " . $link->error);}
 
@@ -122,11 +122,10 @@ ini_set('display_startup_errors', 1);
 
 				<hr>
 				
-				<h3>Bitcoin Address (optional)</h3>
+				<h3>Your Bitcoin Address (optional)</h3>
 				<input type="text" id="lbtc" name="btc" class="form-control mb-3" placeholder="Your bitcoin address for forwarding">
-				<p class="text-muted">Enter your Bitcoin address if you would like to immediatly forward all income payments to your wallet.<br>
-				   Keep this field empty If you want to accept all payments without any fee and store in an anonymous wallet.
-				</p>
+				<p class="text-muted">Enter your Bitcoin address if you would like to immediatly <a href="https://apirone.com/docs/wallet" target="_blank">forward</a> all income payments to your wallet.<br>
+			    Keep this field empty If you want to accept all payments without any fee and store in an anonymous <a href="https://apirone.com/docs/wallet" target="_blank">saving wallet</a>. </p>
 
 				<input type="hidden" name="install" value="1">
 

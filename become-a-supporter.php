@@ -95,16 +95,16 @@
 		$second = 1000000;  // second icon size in Satoshi
 	?>		
 	<main>
-      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark row">
+      <div class="jumbotron mt-3 p-3 p-md-5 text-white rounded bg-dark row">
         <div class="col-md-6 px-0">
           <h1 class="display-4 font-italic">Become a Supporter</h1>
           <p class="lead my-3">Publishing link here, you support our development and gain visitors to your project. Just add link to your logo and site URL. Pay any amount for your wish. 1 pixel cost = <?php echo $onepx ?> Satoshi.<br>
-		  We recomend to send minimum 0.01 BTC and get 100x100 pixels for round Logo button. For example:</p>
+		  We recomend to send minimum 0.01 BTC and get 100x100 pixels for Logo button. For example:</p>
 		<p class="small">
 
-		  <?php echo round($first/100000000,8); ?> BTC = $ <?php echo round($usd/100000000*$first,2); ?> USD = <?php echo $first/$onepx. "x". $first/$onepx; ?> px = <a href="https://google.com/" target="_blank"><img src="img/googleg_standard_color_128dp.png" alt="https://google.com/" width=<?php echo $first/$onepx; ?> height=<?php echo $first/$onepx; ?> class="m-1 img-thumbnail" style="vertical-align: sub;"></a><br>
+		  <?php echo round($first/100000000,8); ?> BTC = $ <?php echo round($usd/100000000*$first,2); ?> USD = <?php echo $first/$onepx. "x". $first/$onepx; ?> px = <a href="https://google.com/" target="_blank"><img src="img/cat.png" alt="https://google.com/" width=<?php echo $first/$onepx; ?> height=<?php echo $first/$onepx; ?> class="m-1 img-thumbnail" style="vertical-align: sub;"></a><br>
 
-		  <?php echo round($second/100000000,8); ?> BTC = $ <?php echo round($usd/100000000*$second,2); ?> USD = <?php echo $first/$onepx. "x". $first/$onepx; ?> px = <a href="https://google.com/" target="_blank"><img src="img/googleg_standard_color_128dp.png" alt="https://google.com/" width=<?php echo $second/$onepx; ?> height=<?php echo $second/$onepx; ?> class="m-1 img-thumbnail"></a>
+		  <?php echo round($second/100000000,8); ?> BTC = $ <?php echo round($usd/100000000*$second,2); ?> USD = <?php echo $second/$onepx. "x". $second/$onepx; ?> px = <a href="https://google.com/" target="_blank"><img src="img/cat.png" alt="https://google.com/" width=<?php echo $second/$onepx; ?> height=<?php echo $second/$onepx; ?> class="m-1 img-thumbnail"></a>
 		</p>
         </div>
 		  
